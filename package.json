@@ -1,0 +1,12 @@
+{
+  "name": "vvs-u1-auditoria-estatica",
+  "version": "1.0.0",
+  "description": "Auditoría estática de un módulo JavaScript de descuentos: requisitos, inspección por pares y ESLint (VVS, Unidad 1).",
+  "main": "src/descuentos.js",
+  "scripts": {
+    "test": "echo \"Sin pruebas dinámicas: la Unidad 1 evalúa únicamente técnicas estáticas\" && exit 0"
+  },
+  "keywords": ["verificacion", "validacion", "analisis-estatico", "eslint", "inspeccion"],
+  "author": "Angelo Chávez",
+  "license": "MIT"
+}

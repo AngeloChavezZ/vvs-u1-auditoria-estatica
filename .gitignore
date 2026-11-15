@@ -1,0 +1,17 @@
+# Dependencias (se regeneran con `npm install`)
+node_modules/
+
+# Registros y temporales
+npm-debug.log*
+*.log
+.eslintcache
+
+# Sistema operativo y editor
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Variables de entorno
+.env
