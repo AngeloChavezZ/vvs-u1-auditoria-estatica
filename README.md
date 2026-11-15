@@ -71,7 +71,11 @@ La configuración parte de `eslint:recommended` (`@eslint/js`) y añade:
 | Momento | Errores | Advertencias | Evidencia |
 |---------|---------|--------------|-----------|
 | Análisis inicial | 5 | 1 | `evidencias/lint-inicial.txt` |
-| Análisis final | En revisión | En revisión | Pull request n.º 1 |
+| Análisis final | 0 | 1 | `evidencias/lint-final.txt` |
+
+La advertencia restante (`no-console`) se mantiene abierta a propósito: ver hallazgos H-04 y H-05.
+
+En total se registraron **9 hallazgos**: 4 detectados por ESLint (3 cerrados) y 5 por la revisión humana (abiertos, a la espera de decisiones de negocio).
 
 ## Alcance de las correcciones
 
