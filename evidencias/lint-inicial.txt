@@ -1,0 +1,16 @@
+
+> vvs-u1-auditoria-estatica@1.0.0 lint
+> eslint .
+
+
+src/descuentos.js
+  2:1   error    Unexpected var, use let or const instead  no-var
+  3:11  error    Expected '===' and instead saw '=='       eqeqeq
+  3:20  error    Expected { after 'if' condition           curly
+  4:23  error    Expected { after 'if' condition           curly
+  4:23  warning  Unexpected console statement              no-console
+  5:1   error    Unexpected var, use let or const instead  no-var
+
+✖ 6 problems (5 errors, 1 warning)
+  4 errors and 0 warnings potentially fixable with the `--fix` option.
+

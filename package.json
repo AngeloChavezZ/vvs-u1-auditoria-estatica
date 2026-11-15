@@ -4,9 +4,22 @@
   "description": "Auditoría estática de un módulo JavaScript de descuentos: requisitos, inspección por pares y ESLint (VVS, Unidad 1).",
   "main": "src/descuentos.js",
   "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "test": "echo \"Sin pruebas dinámicas: la Unidad 1 evalúa únicamente técnicas estáticas\" && exit 0"
   },
-  "keywords": ["verificacion", "validacion", "analisis-estatico", "eslint", "inspeccion"],
+  "keywords": [
+    "verificacion",
+    "validacion",
+    "analisis-estatico",
+    "eslint",
+    "inspeccion"
+  ],
   "author": "Angelo Chávez",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.15.0",
+    "globals": "^17.14.0"
+  }
 }
